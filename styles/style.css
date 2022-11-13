@@ -177,6 +177,9 @@ ul{
   margin: 0;
   margin-top: 100px; 
 }
+.feynman__title_span-accent{
+  display: block;
+}
 
 .feynman__subtitle{
   line-height: 51px;
