@@ -13,6 +13,7 @@
   max-height: 756px;
   background-color: #f2f2f2;
   overflow: hidden;
+  margin-bottom: 100px;
 }
 
 .logo_place_header {
@@ -48,6 +49,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.header__link:hover {
+  opacity: 0.4;
+  transition: 0.35s;
 }
 
 .header__main-illustration {
@@ -92,14 +98,14 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
-  margin-top: 100px;
   width: 175px;
+  margin: 0;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
-  margin-top: 100px;
+  
 }
 
 .two-columns {
@@ -123,6 +129,7 @@
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 30px;
+  
 }
 
 .two-columns__paragraph:last-child {
@@ -280,16 +287,14 @@
 
 .khan {
   display: flex;
-  flex-direction: column;
-  position: relative;
+  flex-direction: row;
   background-color: #f2f2f2;
-
 }
 
 .khan__container {
   width: 80%;
   margin: 105px auto 0;
-  
+
 }
 
 .khan__author {
@@ -332,22 +337,35 @@
 }
 
 .khan__book-container {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
   margin-top: 68px;
 }
 
 .khan__pic-book {
   height: 620px;
   width: 608px;
+  object-fit: cover;
+  object-position: 0 0;
+
 }
 
+
 .khan__buy-link {
+  align-self: flex-start;
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
   margin-left: 48px;
-  position: absolute;
+  
+}
+
+.khan__buy-link:hover {
+  opacity: 0.4;
+  transition: 0.35s;
 }
 
 .feynman {
@@ -391,6 +409,11 @@
   color: #2f80ed;
   text-decoration: none;
   z-index: 2;
+}
+
+.feynman__link:hover {
+  opacity: 0.4;
+  transition: 0.35s;
 }
 
 .feynman__image {
@@ -463,6 +486,8 @@
 }
 
 .resources__logo-zone {
+  display: flex;
+  text-align: center;
   margin: 80px auto 217px;
   width: 1100px;
   
@@ -473,6 +498,13 @@
   height: 38px;
   justify-content: space-between;
 }
+
+.resources__link:hover {
+  opacity: 0.4;
+  transition: 0.35s;
+}
+
+
 
 .footer {
   display: flex;
@@ -530,6 +562,11 @@
   font-size: 18px;
   font-weight: normal;
   color: #fff;
+}
+
+.footer__column-link:hover {
+  opacity: 0.4;
+  transition: 0.35s;
 }
 
 .footer__social-icon {
