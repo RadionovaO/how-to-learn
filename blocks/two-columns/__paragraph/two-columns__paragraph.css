@@ -1,0 +1,25 @@
+.two-columns__paragraph:first-child {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  
+  .two-columns__paragraph {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+  
+  }
+  
+  .two-columns__paragraph:last-child {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
